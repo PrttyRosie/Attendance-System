@@ -84,7 +84,7 @@ $attendance = mysqli_query(
         <?php } ?>
     </select>
 
-    <input type="time" name="time_in" required>
+    <input type="time" name="time_in" >
 
     <select name="remarks" required>
         <option value="">Status</option>
